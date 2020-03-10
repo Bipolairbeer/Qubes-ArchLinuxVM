@@ -25,9 +25,9 @@ Make the script executable:
 #
 #
 Step 5:
-To run the script make sure that you are in the right directory:
+Copie the script to the home directory:
   
-  cd /home/user/Qubes-ArchLinuxVM/
+  cp ~/Qubes-ArchLinuxVM/archlinux-builder.sh /home/user/
 #
 #
 Step 6:
