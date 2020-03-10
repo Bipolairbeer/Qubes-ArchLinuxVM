@@ -19,18 +19,12 @@ To run the script make sure that you are in the right directory:
 #
 #
 Step 4:
-Verify the integrity of the repository:
-
-  git tag -v $(git describe)
-#
-#
-Step 5:
 Make the script executable:
 
   sudo chmod +x /home/user/Qubes-ArchLinuxVM/archlinux-builder.sh
 #
 #
-Step 6:
+Step 5:
 Run the script
 
   sudo ./archlinux-builder.sh
