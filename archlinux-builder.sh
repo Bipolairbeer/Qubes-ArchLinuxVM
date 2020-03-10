@@ -50,8 +50,9 @@ make gui-agent-linux-vm
 make qubes-vm
 make template
 
-sudo qvm-run --pass-io build-archlinux2 'cat /home/user/qubes-builder/qubes-src/linux-template-builder/rpm/install-templates.sh' > install-templates.sh
-sudo chmod +x install-templates.sh
-sudo ./install-templates.sh
+# Complete the templateVM in dom0: 
+# sudo qvm-run --pass-io build-archlinux2 'cat /home/user/qubes-builder/qubes-src/linux-template-builder/rpm/install-templates.sh' > install-templates.sh
+# sudo chmod +x install-templates.sh
+# sudo ./install-templates.sh
 
 
