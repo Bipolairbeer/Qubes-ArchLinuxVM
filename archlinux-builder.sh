@@ -2,7 +2,7 @@
 cd
 sudo dnf -y install make git pacman gnupg createrepo rpm-build make wget rpmdevtools python3-sh dialog rpm-sign dpkg-dev debootstrap PyYAML devscripts perl-Digest-MD5 perl-Digest-SHA
 
-git clone https://github.com/QubesOS/qubes-secpack.git
+git clone https://github.com/QubesOS/qubes-secpack.git ~/qubes-secpack
 
 cd /home/user/qubes-secpack/
 gpg --import qubes-secpack/keys/*/*
@@ -14,12 +14,13 @@ y
 quit
 EOF
 
+cd
 cd /home/user/qubes-secpack/canaries/
 gpg --verify canary-001-2015.txt.sig.joanna canary-001-2015.txt
 gpg --verify canary-001-2015.txt.sig.marmarek canary-001-2015.txt
 
 cd
-git clone https://github.com/QubesOS/qubes-builder.git
+git clone https://github.com/QubesOS/qubes-builder.git ~/qubes-builder
 
 cd /home/user/qubes-builder/
 git tag -v `git describe`
