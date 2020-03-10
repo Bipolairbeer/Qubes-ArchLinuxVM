@@ -36,5 +36,13 @@ Run the script
   sudo ./archlinux-builder.sh
 #
 #
+Wenn the script finished, open the dom0 terminal and give these three commands:
+
+  sudo qvm-run --pass-io build-archlinux2 'cat /home/user/qubes-builder/qubes-src/linux-template-builder/rpm/install-templates.sh' > install-templates.sh
+  
+  sudo chmod +x install-templates.sh
+  
+  sudo ./install-templates.sh
 #
-Congratzzzz! You have created your ArchLinuxVM!
+#
+Congratzzzz! You have now created your ArchLinuxVM!
