@@ -19,9 +19,9 @@ Clone this repository in your build-archlinux2 terminal:
 #
 #
 Step 4:
-Change the scripts permissions and make it executable:
+Make the script executable:
 
-  sudo chmod -R 777 /home/user/Qubes-ArchLinuxVM
+  sudo chmod +x /home/user/Qubes-ArchLinuxVM/archlinux-builder.sh
 #
 #
 Step 5:
@@ -33,7 +33,7 @@ To run the script make sure that you are in the right directory:
 Step 6:
 Run the script
 
-  sudo ./archlinux-builder.sh
+  ./archlinux-builder.sh
 #
 #
 Wenn the script finished, open the dom0 terminal and give these three commands:
