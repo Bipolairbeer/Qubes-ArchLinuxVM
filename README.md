@@ -13,15 +13,15 @@ Clone this repository in your build-archlinux2 terminal:
 #
 #
 Step 3:
-To run the script make sure that you are in the right directory:
+Change the scripts permissions and make it executable:
 
-  cd /home/user/Qubes-ArchLinuxVM/
+  sudo chmod -R 777 /home/user/Qubes-ArchLinuxVM
 #
 #
 Step 4:
-Make the script executable:
-
-  sudo chmod +x /home/user/Qubes-ArchLinuxVM/archlinux-builder.sh
+To run the script make sure that you are in the right directory:
+  
+  cd /home/user/Qubes-ArchLinuxVM/
 #
 #
 Step 5:
