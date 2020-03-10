@@ -26,6 +26,7 @@ sudo chmod -R 777 /home/user/qubes-builder
 cd /home/user/qubes-builder/
 git tag -v `git describe`
 
+cd
 cp /home/user/Qubes-ArchLinuxVM/builder.conf /home/user/qubes-builder/builder.conf
 
 cd /home/user/qubes-builder/
