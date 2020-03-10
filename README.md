@@ -5,7 +5,7 @@ An easy way to create your Arch Linux template in QubesOS!
 Step 1:
 Update your fedora templateVM
 
-  sudo update && sudo upgrade
+  sudo dnf update && sudo dnf upgrade
 #
 #
 Step 2:
