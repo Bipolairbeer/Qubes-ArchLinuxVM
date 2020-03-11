@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo chmod -R 777 /home/user/Qubes-ArchLinuxVM
 sudo dnf -y install make git pacman gnupg createrepo rpm-build make wget rpmdevtools python3-sh dialog rpm-sign dpkg-dev debootstrap PyYAML devscripts perl-Digest-MD5 perl-Digest-SHA
 
 sudo git clone https://github.com/QubesOS/qubes-secpack.git ~/qubes-secpack
