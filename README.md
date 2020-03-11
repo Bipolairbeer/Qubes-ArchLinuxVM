@@ -1,4 +1,4 @@
-# Qubes-ArchLinuxVM
+# Qubes-ArchLinuxVM [TEST]
 An easy way to create your Arch Linux template in QubesOS!
 #	
 #		
@@ -27,7 +27,7 @@ cp ~/Qubes-ArchLinuxVM/archlinux-builder.sh /home/user/
 Step 5:
 Make the script executable.
 #	
-sudo chmod +x /home/user/archlinux-builder.sh
+sudo chmod +x /home/user/Qubes-ArchLinuxVM
 #	
 #			
 Step 6:
