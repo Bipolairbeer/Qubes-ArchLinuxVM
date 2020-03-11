@@ -2,7 +2,8 @@
 sudo chmod -R 777 /home/user/Qubes-ArchLinuxVM
 sudo dnf -y install make git pacman gnupg createrepo rpm-build make wget rpmdevtools python3-sh dialog rpm-sign dpkg-dev debootstrap PyYAML devscripts perl-Digest-MD5 perl-Digest-SHA
 
-sudo git clone https://github.com/QubesOS/qubes-secpack.git ~/qubes-secpack
+sudo git clone https://github.com/QubesOS/qubes-secpack.git /home/user/qubes-secpack
+sudo chmod -R 777 /home/user/qubes-secpack
 
 gpg --import qubes-secpack/keys/*/*
 gpg --command-fd 0 --edit-key 36879494 <<EOF
@@ -19,6 +20,7 @@ gpg --verify canary-001-2015.txt.sig.marmarek canary-001-2015.txt
 
 cd
 sudo git clone https://github.com/QubesOS/qubes-builder.git ~/qubes-builder
+sudo chmod -R 777 /home/user/qubes-builder
 
 cd /home/user/qubes-builder/
 git tag -v `git describe`
