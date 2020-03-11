@@ -25,9 +25,9 @@ cp ~/Qubes-ArchLinuxVM/archlinux-builder.sh /home/user/
 #	
 #			
 Step 5:
-Make the script readable, writable and executable.
+Make the script executable.
 #	
-sudo chmod -R 777 /home/user/Qubes-ArchLinuxVM
+sudo chmod +x /home/user/Qubes-ArchLinuxVM
 #	
 #			
 Step 6:
