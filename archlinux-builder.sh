@@ -33,13 +33,6 @@ make install-deps
 make get-sources
 
 make vmm-xen 
-make core-admin 
-make linux-kernel 
-make gui-daemon 
-make desktop-linux-kde 
-make installer-qubes-os 
-make manager 
-make linux-dom0-updates
 make vmm-xen-vm
 make core-vchan-xen-vm
 make core-qubesdb-vm
@@ -47,6 +40,7 @@ make linux-utils-vm
 make core-agent-linux-vm
 make gui-common-vm
 make gui-agent-linux-vm
+
 make qubes-vm
 make template
 
